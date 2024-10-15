@@ -1,13 +1,13 @@
-Broswer Compatability
+Browser Compatability
 
     Chrome: 
-        - Version 7.0+
+        - Versions 7.0+
     
     Firefox
-        - Version 6.0+
+        - Versions 6.0+
 
     Safari
-        - Verions 6.0+
+        - Versions 6.0+
 
     Internet Explorer
         - Versions 9.0+  
@@ -32,7 +32,6 @@ How to run Webcall
 
     Preliminary:
 
-        * VS Code is prefered 
         * Open a split terminal
 
             1. Terminal > New Terminal
@@ -40,15 +39,19 @@ How to run Webcall
 
     Server-side:
 
-        $ cd server
+        * Navigate to the directory
+
+        $ cd path/server
         $ npm start
 
     Client-side:
 
-        $ cd client
+        * Navigate to the directory
+
+        $ cd path/client
         $ npm start
 
-        - running on same port?
+        - running on the same port?
         $ y
 
 ---------------------------------
@@ -65,5 +68,5 @@ Run-time Instructions
     Participant:
 
         1. Input Username
-        2. Paste friend's ID into 'User to Call'
+        2. Paste a friend's ID into 'User to Call'
         3. Wait for Answer
